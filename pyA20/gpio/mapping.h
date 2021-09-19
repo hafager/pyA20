@@ -178,6 +178,29 @@ gpio_t gpio[] = {
 		}
 	},
 
+	{ "gpio4",
+		{
+			{ "PA0",  SUNXI_GPA(0),		13 },
+			{ "PA1",  SUNXI_GPA(1),		11 },
+			{ "PA2",  SUNXI_GPA(2),		22 },
+			{ "PA3",  SUNXI_GPA(3),		15 },
+			{ "PA6",  SUNXI_GPA(6),		7  },
+			{ "PA7",  SUNXI_GPA(7),		12 },
+			{ "PA10", SUNXI_GPA(10),	26 },
+			{ "PA11", SUNXI_GPA(11),	5  },
+			{ "PA12", SUNXI_GPA(12),	3  },
+			{ "PA13", SUNXI_GPA(13),	24 },
+			{ "PA14", SUNXI_GPA(14),	23 },
+			{ "PA15", SUNXI_GPA(15),	19 },
+			{ "PA16", SUNXI_GPA(16),	21 },
+			{ "PA18", SUNXI_GPA(18),	18 },
+			{ "PA19", SUNXI_GPA(19),	16 },
+			{
+				{ 0, 0, 0 },
+			},
+		}
+	},
+
 	{ "uext1",
 		{
 			{ "PI12", SUNXI_GPI(12),  3  },
